@@ -1,0 +1,111 @@
+/* =========================
+   默认主题
+========================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  line-height: 1.6;
+}
+
+/* 链接样式 */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   暗黑模式
+========================= */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #66b0ff;
+}
+
+/* =========================
+   Header / Nav
+========================= */
+header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+
+body.dark-mode header {
+  background-color: #1e1e1e;
+}
+
+nav a {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+/* =========================
+   主内容区
+========================= */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* =========================
+   按钮样式
+========================= */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 暗黑模式按钮 */
+body.dark-mode button {
+  background-color: #66b0ff;
+  color: #121212;
+}
+
+body.dark-mode button:hover {
+  background-color: #3390ff;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+body.dark-mode footer {
+  background-color: #1e1e1e;
+}
+
+/* =========================
+   响应式布局
+========================= */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
